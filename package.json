@@ -1,0 +1,26 @@
+{
+  "name": "github-actions-poc1",
+  "version": "1.0.0",
+  "description": "A sample project for GitHub Actions CI workflow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"  // Replace with your start command
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "ci",
+    "workflow"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    // Add your project dependencies here
+    "express": "^4.17.1"  // Example dependency, remove or modify as needed
+  },
+  "devDependencies": {
+    // Add your development dependencies here
+    "jest": "^26.6.0"  // Example dev dependency, remove or modify as needed
+  }
+}
